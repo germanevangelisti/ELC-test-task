@@ -1,0 +1,61 @@
+.title {
+    font-family: "Lucida Console", Courier, monospace;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.elc-picture {
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    margin: 0 auto;
+    width: 120px;
+}
+
+.elc-description {
+    font-family: "Lucida Console", Courier, monospace;
+    min-height: 70px;;
+}
+
+.elc-price {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.elc-tags {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.ais-Hits-list {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    width: 75%;
+}
+
+.ais-Hits-item {
+    display: inline-block;
+    font-size: 13px;
+    padding: 5px;
+    width: 20%;
+
+    div {
+        display: flex;
+        padding: 10px 0px;
+        flex-direction: column;
+    }
+
+    ul.tags {
+        list-style-type: square;
+        padding-left: 10px
+    }
+
+    li {
+        padding-bottom: 5px
+    }
+}
+
+img {
+    height: auto;
+    width: 100%;
+}

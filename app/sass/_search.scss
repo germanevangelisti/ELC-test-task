@@ -1,0 +1,44 @@
+.content {
+    margin-top: 25px;
+}
+
+.ais-SearchBox {
+    display: block;
+    font-family: "Lucida Console", Courier, monospace;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+.ais-SearchBox {
+    input {
+        border: 1px solid #333;
+        display: block;
+        font-size: 20px;
+        padding: 15px 10px;
+        width: 100%;
+    }
+    .ais-SearchBox-submit {
+        display:none;
+    }
+
+    .ais-SearchBox-resetIcon {
+        display: none;
+    }
+}
+
+.ais-Pagination {
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    width: 75%;
+}
+
+.ais-Pagination-list {
+    list-style: none;
+}
+
+.ais-Pagination-item {
+    display: inline-block;
+    padding: 5px;
+}
